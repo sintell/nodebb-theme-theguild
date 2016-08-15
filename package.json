@@ -1,0 +1,101 @@
+{
+  "_args": [
+    [
+      {
+        "name": "nodebb-theme-theguild",
+        "raw": "nodebb-theme-theguild@0.0.1",
+        "rawSpec": "0.0.1",
+        "scope": null,
+        "spec": "0.0.1",
+        "type": "version"
+      },
+      "/Users/a.anatskiy/code/js/NodeBB"
+    ]
+  ],
+  "_from": "nodebb-theme-theguild@0.0.1",
+  "_id": "nodebb-theme-theguild@0.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/nodebb-theme-theguild",
+  "_nodeVersion": "4.2.4",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/nodebb-theme-theguild-0.0.1.tgz_1469792448845_0.5574723824393004"
+  },
+  "_npmUser": {
+    "email": "barisusakli@gmail.com",
+    "name": "baris"
+  },
+  "_npmVersion": "2.14.12",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "nodebb-theme-theguild",
+    "raw": "nodebb-theme-theguild@0.0.1",
+    "rawSpec": "0.0.1",
+    "scope": null,
+    "spec": "0.0.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nodebb-theme-theguild/-/nodebb-theme-theguild-0.0.1.tgz",
+  "_shasum": "08da7ccda22071422583873832cb690f3697969f",
+  "_shrinkwrap": null,
+  "_spec": "nodebb-theme-theguild@0.0.1",
+  "_where": "/Users/a.anatskiy/code/js/NodeBB",
+  "bugs": {
+    "url": "https://github.com/sintell/nodebb-theme-theguild/issues"
+  },
+  "contributors": [
+    {
+      "email": "andrew@designcreateplay.com",
+      "name": "Andrew Rodrigues",
+      "url": "https://github.com/sintell"
+    },
+    {
+      "email": "julian@designcreateplay.com",
+      "name": "Julian Lam",
+      "url": "https://github.com/julianlam"
+    },
+    {
+      "email": "baris@designcreateplay.com",
+      "name": "Barış Soner Uşaklı",
+      "url": "https://github.com/barisusakli"
+    }
+  ],
+  "dependencies": {},
+  "description": "Persona theme for NodeBB",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "08da7ccda22071422583873832cb690f3697969f",
+    "tarball": "https://registry.npmjs.org/nodebb-theme-theguild/-/nodebb-theme-theguild-0.0.1.tgz"
+  },
+  "gitHead": "47804142c0c07055e33a70b88377a1a17fa64f0b",
+  "homepage": "https://github.com/sintell/nodebb-theme-theguild#readme",
+  "keywords": [
+    "nodebb",
+    "theme",
+    "forum",
+    "bootstrap",
+    "responsive"
+  ],
+  "license": "BSD-2-Clause",
+  "main": "theme.less",
+  "maintainers": [
+
+  ],
+  "name": "nodebb-theme-theguild",
+  "nbbpm": {
+    "compatibility": "^0.8.2 || ^0.9.0 || ^1.0.0"
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sintell/nodebb-theme-theguild.git"
+  },
+  "scripts": {},
+  "version": "0.0.1"
+}
