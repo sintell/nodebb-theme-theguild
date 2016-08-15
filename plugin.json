@@ -6,7 +6,9 @@
 		{ "hook": "filter:widgets.getAreas", "method": "defineWidgetAreas" },
 		{ "hook": "filter:config.get", "method": "getThemeConfig" },
 		{ "hook": "static:app.load", "method": "init" },
-		{ "hook": "filter:admin.header.build", "method": "addAdminNavigation" }
+		{ "hook": "filter:admin.header.build", "method": "addAdminNavigation" },
+		{ "hook": "filter:user.listPictures", "method": "listBnetPicture" },
+		{ "hook": "filter:user.getPicture", "method": "getBnetPicture" }
 	],
 	"scripts": [
 		"lib/theguild.js",

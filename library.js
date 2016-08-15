@@ -2,6 +2,7 @@
 
 var S = require.main.require('string');
 var	meta = module.parent.require('./meta');
+var user = module.parent.require('./user');
 
 var library = {};
 
@@ -99,5 +100,38 @@ library.getThemeConfig = function(config, callback) {
 function renderAdmin(req, res) {
 	res.render('admin/plugins/theguild', {});
 }
+
+var bnet_image = '//' + process.env.BNET_LOCATION + '.battle.net/static-render/' + process.env.BNET_LOCATION + '/';
+library.listBnetPicture = function(params, callback) {
+
+    user.getUserField(params.uid, 'bnetData', function(err, data) {
+        data.characters.forEach(function(character) {
+            if (character.isMain) {
+                params.pictures.push({
+                    type: 'bnet',
+                    url:  bnet_image + character.thumbnail,
+                    text: '[[theguild:main_char_picture]]'
+                });
+
+                callback(null, params);
+            }
+        });
+    });
+};
+
+library.getBnetPicture = function(params, callback) {
+    if (params.type === 'bnet') {
+        user.getUserField(params.uid, 'bnetData', function(err, data) {
+            data.characters.forEach(function(character) {
+                if (character.isMain) {
+                    params.picture = bnet_image + character.thumbnail;
+                    
+                    callback(null, params);
+                }
+            });
+        });
+    }
+
+};
 
 module.exports = library;
